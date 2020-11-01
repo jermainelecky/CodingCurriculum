@@ -1,0 +1,85 @@
+#content-container {
+    margin: 5%;
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.detail-image {
+    width: 100vw;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.detail-image img {
+    max-width: 100%;
+}
+
+.description {
+    width: 100%;
+    padding: 50px 30px;
+}
+
+.description h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+form {
+    width: 100%;
+}
+
+.price {
+    font-size: 3rem;
+    text-align: center;
+    width: 50%;
+}
+
+input[type=number]{
+    width: 50px;
+}
+
+input {
+    margin: 20px 0;
+}
+
+#submit-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    display: block;
+}
+
+@media (min-width: 800px) {
+    #content-container {
+        height: 67vh;
+    }
+
+    .detail-image {
+        width: 50%;
+    }
+
+    .price {
+        width: 50%;
+        display: inline-block;
+    }
+
+    form {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .description {
+        display: inline-block;
+        width: 45%;
+        position: absolute;
+        top: 200px;
+    }
+
+
+}
