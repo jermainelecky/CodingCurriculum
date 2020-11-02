@@ -1,0 +1,149 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Exercise 7</title>
+  <meta name="description" content="ITA CSS Layout Exercise">
+  <meta name="author" content="Mark Kroh">
+
+  <style>
+  	.interior {
+		width: 100px;
+		height: 100px;
+		border: solid 10px white;
+		position: absolute;
+	}
+
+	.div1::before {
+		content: '';
+		width: 100px;
+		height: 100px;
+		background-color: #ff9998;
+		position: absolute;
+		left: -120px;
+	}
+
+	.div1 {
+		background-color: #ff4a45;
+		left: 120px;
+	}
+
+	.div1::after {
+		background-color: red;
+		width: 100px;
+		height: 100px;
+		content: '';
+		position: absolute;
+		left: 120px;
+	}
+
+	.div2::before {
+		background-color: #ffdd96;
+		width: 100px;
+		height: 100px;
+		content: '';
+		position: absolute;
+		left: -120px;
+	}
+
+	.div2 {
+		background-color: #ffc23d;
+		left: 120px;
+		top: 120px;
+	}
+
+	.div2::after {
+		background-color: orange;
+		width: 100px;
+		height: 100px;
+		content: '';
+		position: absolute;
+		left: 120px;
+	}
+
+	.div3::before {
+		background-color: #ffff94;
+		width: 100px;
+		height: 100px;
+		content: '';
+		position: absolute;
+		left: -120px;
+	}
+
+	.div3 {
+		background-color: #ffff32;
+		left: 120px;
+		top: 240px;
+	}
+
+	.div3::after {
+		background-color: yellow;
+		width: 100px;
+		height: 100px;
+		content: '';
+		position: absolute;
+		left: 120px;
+	}
+
+	.div4::before {
+		background-color: #9a97ff;
+		width: 100px;
+		height: 100px;
+		content: '';
+		position: absolute;
+		left: -120px;
+	}
+
+	.div4 {
+		background-color: #4b41ff;
+		left: 120px;
+		top: 360px;
+	}
+
+	.div4::after {
+		background-color: blue;
+		width: 100px;
+		height: 100px;
+		content: '';
+		position: absolute;
+		left: 120px;
+	}
+
+	.div5::before {
+		background-color: #f9cdf9;
+		width: 100px;
+		height: 100px;
+		content: '';
+		position: absolute;
+		left: -120px;
+	}
+
+	.div5 {
+		background-color: #f4a7f5;
+		left: 120px;
+		top: 480px;
+	}
+
+	.div5::after {
+		background-color: violet;
+		width: 100px;
+		height: 100px;
+		content: '';
+		position: absolute;
+		left: 120px;
+	}
+  </style>
+</head>
+<body>
+	<!-- Do not touch the HTML please -->
+	<div class="container">
+		<div class="interior div1"></div>
+		<div class="interior div2"></div>
+		<div class="interior div3"></div>
+		<div class="interior div4"></div>
+		<div class="interior div5"></div>
+	</div>
+</body>
+</html>
