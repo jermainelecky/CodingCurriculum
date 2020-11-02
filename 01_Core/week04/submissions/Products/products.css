@@ -1,5 +1,5 @@
 #header-image {
-    background: url("Images/products-page-banner.png") center/cover no-repeat;
+    background: url("../Images/products-page-banner.png") center/cover no-repeat;
     width: 100vw;
     height: 40vh;
 }
