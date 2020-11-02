@@ -8,7 +8,7 @@
 }
 
 #header-image {
-    background: url("/Images/Virtual-Reality-Changing-the-World.jpg") center/cover no-repeat;
+    background: url("Images/Virtual-Reality-Changing-the-World.jpg") center/cover no-repeat;
     width: 100vw;
     height: 40vh;
 }
