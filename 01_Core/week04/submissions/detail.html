@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>E-Commerce Project</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+        <div id="header">
+            <nav class="nav">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="assets/images/vrlogo.jpeg" alt="logo">
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="products.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li id="search-icon">
+                        <a href="search.html">&#x1F50E;</a>
+                    </li>
+                </ul>
+                <div class="mobile-nav">
+                    <div id="mobile-links" style="display: none;">
+                        <a href="products.html">Shop</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="search.html">&#x1F50E;</a>
+                    </div>
+                    <a href="javascript:void(0);" onclick="openMobileNav()">
+                        <img src="assets/images/Hamburger_icon.svg.png" alt="mobile navigation button">
+                    </a>
+                </div>
+            </nav>
+            <div id="store-nav">
+                <ul>
+                    <li>
+                        <a href="products.html">Headsets</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Steering Wheels</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Joysticks</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Accessories</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Games</a>
+                    </li>
+                </ul>
+                <div id="category-filter">
+                    <label for="category">Categories:</label>
+                    <select id="category" name="category">
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="Headsets">Headsets</option>
+                        <option value="Steering Wheels">Steering Wheels</option>
+                        <option value="Joysticks">Joysticks</option>
+                        <option value="Accessories">Accessories</option>
+                        <option value="Games">Games</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div id="detail-content-container">
+            <div id="title">
+                <h1>Oculus Quest 2</h1>
+            </div>
+            <div class="detail-image">
+                <img src="assets/images/oculus-quest-2.jpg" alt="Image of Oculus Quest 2">
+            </div>
+            <div class="price">
+                <p>$300</p>
+            </div>
+            <form id="detail-form">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" min="1" value="1">
+                <input type="submit" id="submit-btn" value="Add To Cart">
+            </form>
+            <div class="description"> 
+                <h3>Description</h3>
+                <ul>
+                    <li>Next-level Hardware - Make every move count with a blazing-fast processor and our highest-resolution display</li>
+                    <li>All-In-One Gaming - With backward compatibility, you can explore new titles and old favorites in the expansive Quest content library</li>
+                    <li>Immersive Entertainment - Get the best seat in the house to live concerts, groundbreaking films, exclusive events and more</li>
+                    <li>Quest 2 requires your Facebook account to log in, making it easy to meet up with friends in VR and discover communities around the world</li>
+                    <li>Easy Setup - Just open the box, set up with the smartphone app and jump into VR. No PC or console needed. Requires wireless internet access and the Oculus app (free download) to set up device</li>
+                    <li>Premium Display - Catch every detail with a stunning display that features 50% more pixels than the original Quest</li>
+                    <li>Ultimate Control - Redesigned Oculus Touch controllers transport your movements directly into VR with intuitive controls</li>
+                </ul>
+            </div>
+        </div>
+        <footer class="main-footer">
+            <nav>
+                <ul class="main-footer__links">
+                    <li class="main-footer__link">
+                        <a href="#">Support</a>
+                    </li>
+                    <li class="main-footer__link">
+                        <a href="#">Terms of Use</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="/assets/javascript/script.js"></script>    
+    </body>
+</html>

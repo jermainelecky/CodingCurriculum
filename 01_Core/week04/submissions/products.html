@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>E-Commerce Project</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link href="assets/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <nav class="nav">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="assets/images/vrlogo.jpeg" alt="logo">
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="products.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li id="search-icon">
+                        <a href="search.html">&#x1F50E;</a>
+                    </li>
+                </ul>
+                <div class="mobile-nav">
+                    <div id="mobile-links" style="display: none;">
+                        <a href="products.html">Shop</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="search.html">&#x1F50E;</a>
+                    </div>
+                    <a href="javascript:void(0);" onclick="openMobileNav()">
+                        <img src="assets/images/Hamburger_icon.svg.png" alt="Mobile Navigation button">
+                    </a>
+                </div>
+            </nav>
+            <div id="header-image"></div>
+            <div id="store-nav">
+                <ul>
+                    <li>
+                        <a href="products.html">Headsets</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Steering Wheels</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Joysticks</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Accessories</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Games</a>
+                    </li>
+                </ul>
+                <div id="category-filter">
+                    <label for="category">Categories:</label>
+                    <select id="category" name="category">
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="Headsets">Headsets</option>
+                        <option value="Steering Wheels">Steering Wheels</option>
+                        <option value="Joysticks">Joysticks</option>
+                        <option value="Accessories">Accessories</option>
+                        <option value="Games">Games</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-card-link">
+                    <a href="detail.html" target="_blank">
+                    <img src="assets/images/oculus-quest-2.jpg" alt="Image of the oculus quest 2"></a>
+                </div>
+                <div class="product-card-description">
+                    <h3>Oculus Quest 2</h3>
+                    <p class="product-price">$299</p>    
+                </div>
+                <button type="submit">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-card-link">
+                    <a href="detail.html" target="_blank">
+                    <img src="assets/images/logiteck-driving-force-g29.jpg" alt="Image of the logiteck driving force G29"></a>
+                </div>
+                <div class="product-card-description">
+                    <h3>Logitech Driving Force G29</h3>
+                    <p class="product-price">$234</p>
+                </div>
+                <button type="submit">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-card-link">
+                    <a href="detail.html" target="_blank">
+                    <img src="assets/images/HOTAS-joystick-adapter.jpg" alt="Image of the Hotas joystick adapter"></a>
+                </div>
+                <div class="product-card-description">
+                    <h3>DeadEyeVR Magnetic HOTAS Joystick Adapter</h3>
+                    <p class="product-price">$20</p>
+                </div>
+                <button type="submit">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-card-link">
+                    <a href="detail.html" target="_blank">
+                    <img src="assets/images/htc-vive.jpg" alt="Image of the HTC Vive"></a>
+                </div>
+                <div class="product-card-description">
+                    <h3>HTC Vive Cosmos Elite</h3>
+                    <p class="product-price">$900</p>
+                </div>
+                <button type="submit">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-card-link">
+                    <a href="detail.html" target="_blank">
+                    <img src="assets/images/charging-display-stand.jpg" alt="Image of the charging display stand"></a>
+                </div>
+                <div class="product-card-description">
+                    <h3>Skywin PSVR Charging Display Stand</h3>
+                    <p class="product-price">$40</p>
+                </div>
+                <button type="submit">Add to Cart</button>
+            </div>
+        </div>
+        <footer class="main-footer">
+            <nav>
+                <ul class="main-footer__links">
+                    <li class="main-footer__link">
+                        <a href="#">Support</a>
+                    </li>
+                    <li class="main-footer__link">
+                        <a href="#">Terms of Use</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="/assets/javascript/script.js"></script>    
+    </body>
+</html>
